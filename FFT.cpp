@@ -1,7 +1,7 @@
 #include <iostream>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-//Êëàññ êîìïëåêñíûõ ÷èñåë
+//Класс комплексных чисел
 class Complex
 {
 private:
@@ -85,7 +85,7 @@ Complex Cross(Complex p1, Complex p2) {
     return Complex(re, im);
 }
 
-//Функция ускорения
+//Функция ускорения (Аналитическая из Ansys AQWA)
 float acceleration (float t){
 return 0.103485 * cos(0.0389469*t) + 0.075664 * cos(0.172788 * t) + 0.0589298  * cos(0.306619 * t) + 2.1091 * cos(0.372153 * t) + 1.54287  * cos(0.463448 * t) + 1.07723 * cos(0.554742 * t) + 0.852001 * cos(0.617826 * t) + 0.563521 * cos(0.743301 * t) +  0.406525 * cos(0.868839 * t) + 0.345055 * cos(0.955735 * t) ;
 
